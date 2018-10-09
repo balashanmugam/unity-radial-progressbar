@@ -11,6 +11,9 @@ Simply clone the repository into the 'Assets' folder of a Unity project and you'
 * To reset this, just call the `public void SetQuestionCount(int count)` again.
 
 ## About
+Tested for Unity 2018.2.0f2. 
+Should work for older versions too. May require slight modifications.
+
 ![Component](https://github.com/balashanmugam/unity-radial-progressbar/blob/master/ReadMEfiles/EmptySector.PNG?raw=true)
 ![Component](https://github.com/balashanmugam/unity-radial-progressbar/blob/master/ReadMEfiles/singlefill.PNG?raw=true)
 ![Component](https://github.com/balashanmugam/unity-radial-progressbar/blob/master/ReadMEfiles/FullyFilled.PNG?raw=true)
