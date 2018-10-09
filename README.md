@@ -6,11 +6,16 @@ Simply clone the repository into the 'Assets' folder of a Unity project and you'
 
 * In the prefabs folder, place the "Progressbar" prefab in your scene.
 * Add a reference to the script or object from any other Object in the scene.
-* Call the function SetQuestionsCount with the number of sectors the circle should be divided with. This will set the base required over which we can increment the progress.
-* Whenever there is a progress, call the "IncreaseProgress" Method.
-* To reset this, just call the "SetQuestionsCount" again.
+* Call the function `public void SetQuestionCount(int count)` with the number of sectors the circle should be divided with. This will set the base required over which we can increment the progress.
+* Whenever there is a progress, call the `public void IncreaseProgress()` Method.
+* To reset this, just call the `public void SetQuestionCount(int count)` again.
 
 ## About
+![Component](https://github.com/balashanmugam/unity-radial-progressbar/blob/master/ReadMEfiles/EmptySector.PNG?raw=true)
+![Component](https://github.com/balashanmugam/unity-radial-progressbar/blob/master/ReadMEfiles/singlefill.PNG?raw=true)
+![Component](https://github.com/balashanmugam/unity-radial-progressbar/blob/master/ReadMEfiles/FullyFilled.PNG?raw=true)
+![Component](https://github.com/balashanmugam/unity-radial-progressbar/blob/master/ReadMEfiles/HalfFilled.PNG?raw=true)
+![Component](https://github.com/balashanmugam/unity-radial-progressbar/blob/master/ReadMEfiles/QuestionCount.PNG?raw=true)
 
  This is not dependent on any timer. This is not for those looking for a progress bar with timer.  
 
